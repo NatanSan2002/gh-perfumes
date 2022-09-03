@@ -1,0 +1,117 @@
+.yellow_gold{
+background: #D5B69A;
+}
+
+.default{
+background:#FFFFFF;
+}
+
+.container{
+width: 90%;
+height: 802.92px;
+display:flex;
+align-items: center;
+justify-content:space-between;
+position: relative;
+z-index: -10;
+padding: 0 5%;
+}
+
+
+
+.title{
+width: 100%;
+}
+
+.title h1{
+    font-family: Playfair Display;
+    font-size: 92px;
+    font-weight: 700;
+    line-height: 92px;
+    letter-spacing: -3.5441176891326904px;
+    text-align: left;
+    color: white;
+}
+
+.button{
+    background: rgb(255, 255, 255,0.0);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 30px;
+    min-width: 171px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    margin: 3% 0;
+}
+
+.button p{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 11.7143px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+
+
+.container > .img1{
+position:absolute;
+left:50%;
+top:50%;
+transform: translate(-50%, -50%);
+z-index: -1;
+}
+
+.container > div {
+width: 40%;
+}
+
+.container > div > p {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    margin: 4% 0;
+    
+}
+
+.arrow{
+z-index: 10;
+position: absolute;
+top: 50%;
+}
+
+.arrowL{  
+left: 4.5%;
+}
+
+.arrowR{  
+    right: 4.5%;
+    }
+
+.container > .abas{
+    z-index: 10;
+    position: absolute;
+    bottom: 5%;
+    left: 47%;
+    width: auto;
+    display: flex;
+}
+
+.abas > img {
+margin: 0 22%;
+}
+
