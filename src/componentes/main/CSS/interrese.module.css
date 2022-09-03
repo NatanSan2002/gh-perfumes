@@ -1,0 +1,80 @@
+.container{
+width:80%;
+padding: 0 10%;
+margin:0 0 5% 0;
+
+}
+
+.squares{
+display:flex;
+align-items: center;
+justify-content: space-between;
+align-content: center;
+flex-wrap: wrap;
+}
+
+.container .squares > div{
+display:flex;
+flex-direction: column;
+flex-wrap: wrap;
+justify-content: flex-end;
+width: 267px;
+height: 540px;
+overflow: hidden;
+position: relative;
+background: linear-gradient(181.18deg, rgba(0, 0, 0, 0) 1%, rgba(0, 0, 0, 0.15) 25.93%, rgba(0, 0, 0, 0.38) 61.16%, rgba(0, 0, 0, 0.71) 91.09%);
+
+transition-duration: 0.5s;
+
+
+}
+
+.container .squares > div:hover > div  {
+transform: translateY(-215.5px);
+transition-duration: 0.4s;
+
+}
+
+.container .squares > div:hover p {
+
+    display:block;
+    
+    }
+    
+
+
+.squares > div > img {
+width:100%;
+z-index:-1;
+position:absolute;
+left:50%;
+top:51%;
+transform: translate(-50%, -50%);
+}
+
+
+.squares > div h1{
+    margin-bottom: 8%;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 31.9355px;
+    line-height: 68px;
+    letter-spacing: 2.90323px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;  
+}
+
+.squares > div p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.4839px;
+    line-height: 21px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    display:none;
+}

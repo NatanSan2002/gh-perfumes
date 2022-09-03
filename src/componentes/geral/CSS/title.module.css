@@ -1,0 +1,13 @@
+.title{
+    margin: 5% 0 3% 0;
+    width: 100%;
+    font-family: 'Oswald';
+    font-weight: 300;
+    font-size: 46px;
+    line-height: 70px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #000000;
+    }
