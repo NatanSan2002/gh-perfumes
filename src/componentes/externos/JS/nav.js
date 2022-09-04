@@ -8,7 +8,6 @@ import love from "../../../imgs/icons/love.png";
 
 function Nav() {
 return(
-<>
 <nav className={style.container}>
 
 <div className={style.top}> 
@@ -85,7 +84,6 @@ ENERGIA E PERFORMANCE
 </div>
 
 </nav>
-</>
 )
 }
 

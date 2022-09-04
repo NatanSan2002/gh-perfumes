@@ -1,0 +1,34 @@
+.container{
+    width:80%;
+    padding: 0 10%;
+    margin:0 0 5% 0;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.container > div{
+    height: 781px;
+    width: 557px;
+    position:relative;
+}
+
+.container .buy{
+    position: absolute;
+    height: auto;
+    width: auto;
+    bottom: 5.1%;
+    left: 25%;
+}
+
+.container > div > img{
+width:100%;
+z-index:-1;
+position:absolute;
+left:50%;
+top:50%;
+transform: translate(-50%, -50%);   
+}
+

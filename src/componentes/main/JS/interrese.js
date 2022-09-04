@@ -32,7 +32,6 @@ Ordenar();
 
 function Interrese(){
 return(
-<>
 <article className={style.container}>
 <Title text="isso pode ser do seu interrese"/>
 <div className={style.squares}>
@@ -54,7 +53,6 @@ return(
 
 
 </article>
-</>
 )
 }
 

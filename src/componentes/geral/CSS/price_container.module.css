@@ -1,0 +1,51 @@
+.container{
+width: 222px;
+height: 184px;
+background: #FFFFFF;
+box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+border-radius: 16px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+position: absolute;
+top: 2.1%;
+left: 2.1%;
+padding: 0% 0 1% 2.5%;
+
+}
+
+
+/*Não consegui achar a fonte primaria(pelo menos gratuita) então optei pela segunda opção dada no layout*/
+.name{
+
+    font-family: Oswald;
+    font-style: normal;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 45%;
+    
+}
+
+.price, .vezs{
+    font-family: Allan;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 46px;
+    letter-spacing: -1.2105263471603394px;
+    text-align: left;
+    
+}
+
+.vezs{
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.1px;
+    color: #828282;
+    
+
+    
+}
+

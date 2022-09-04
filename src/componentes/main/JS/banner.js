@@ -8,7 +8,6 @@ function Banner ({arrow,bck,img1,img2,title,btn,text}) {
 
 
 return(
-<>
 <article className={`${style.container} ${style[bck]}`}>
 
 <img className={style.img1} src={img1} alt="Mulher_Maquiando"/>
@@ -44,7 +43,7 @@ return(
 )}
 
 </article>
-</>
+
 )
 }
 
