@@ -3,7 +3,7 @@ import style from "../CSS/title.module.css";
 function Title({text}){
 return(
 <>
-<h1 className={style.title}>{text}</h1>
+<h3 className={style.title}>{text}</h3>
 </>
 )
 }

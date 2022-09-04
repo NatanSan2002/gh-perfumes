@@ -1,4 +1,5 @@
 import style from "../CSS/banner.module.css";
+
 import seta_L from "../../../imgs/icons/l_arrow.png";
 import seta_R from "../../../imgs/icons/r_arrow.png";
 import ball from "../../../imgs/icons/ball.png";
@@ -7,7 +8,8 @@ function Banner ({arrow,bck,img1,img2,title,btn,text}) {
 
 
 return(
-<div className={`${style.container} ${style[bck]}`}>
+<>
+<article className={`${style.container} ${style[bck]}`}>
 
 <img className={style.img1} src={img1} alt="Mulher_Maquiando"/>
 {img2 && (<img src={img2} alt="Produto"/>)}
@@ -15,7 +17,7 @@ return(
 <div>
 
 <div className={style.title}>
-<h1> {title} </h1>
+<p className={style.tl}> {title} </p>
 </div>
 <p>{text}</p>
 
@@ -41,7 +43,8 @@ return(
 </>
 )}
 
-</div>
+</article>
+</>
 )
 }
 

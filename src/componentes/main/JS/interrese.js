@@ -32,7 +32,8 @@ Ordenar();
 
 function Interrese(){
 return(
-<div className={style.container}>
+<>
+<article className={style.container}>
 <Title text="isso pode ser do seu interrese"/>
 <div className={style.squares}>
 
@@ -41,8 +42,8 @@ return(
 <div>
 <img src={e.img} alt="foto_maquiagem"/>
 <div>
-<h1>{e.setor}</h1>
-<p>ver mais</p>
+<p className={style.tl}>{e.setor}</p>
+<p className={style.more}>ver mais</p>
 </div>
 </div>
 ))}
@@ -52,7 +53,8 @@ return(
 </div>
 
 
-</div>
+</article>
+</>
 )
 }
 

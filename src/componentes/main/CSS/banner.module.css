@@ -24,7 +24,7 @@ overflow: hidden;
 width: 100%;
 }
 
-.title h1{
+.title .tl{
     font-family: Playfair Display;
     font-size: 92px;
     font-weight: 700;

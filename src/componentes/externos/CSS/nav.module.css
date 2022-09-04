@@ -3,7 +3,7 @@
 }
 
 
-.container > nav{
+.container > div{
 width:80%;
 padding:0 10%;
 display: flex;
@@ -33,7 +33,7 @@ width: 20%;
     height: 49px;
     }
 
-.sub_menu  h1{
+.sub_menu  .tl{
     font-family: Open Sans;
     font-size: 14px;
     font-weight: 600;
@@ -110,13 +110,7 @@ margin:0 12px;
 }
 
 
-
-
-nav{
-width:100%;
-}
-
-h1, p{
+.tl, p{
 font-family: Open Sans;
 font-size: 12px;
 font-weight: 600;

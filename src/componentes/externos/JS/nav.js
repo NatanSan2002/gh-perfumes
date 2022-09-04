@@ -1,4 +1,4 @@
-import style from "../CSS/header.module.css";
+import style from "../CSS/nav.module.css";
 import t_logo from "../../../imgs/logos/title.png";
 import userL from "../../../imgs/icons/user_love.png";
 import user from "../../../imgs/icons/user.png";
@@ -6,11 +6,12 @@ import shop from "../../../imgs/icons/bolsa.png";
 import lupa from "../../../imgs/icons/lupa.png";
 import love from "../../../imgs/icons/love.png";
 
-function Header() {
+function Nav() {
 return(
-<div className={style.container}>
+<>
+<nav className={style.container}>
 
-<nav className={style.top}> 
+<div className={style.top}> 
 <p> A Empresa </p>
 
 <div>
@@ -21,9 +22,9 @@ return(
 
 <p> Fale Conosco </p>
 </div>
-</nav>
+</div>
 
-<nav className={style.bot}>
+<div className={style.bot}>
 
 <img className={style.logo} src={t_logo} alt="logo_site"/>  
 
@@ -37,54 +38,55 @@ return(
 <img src={user} alt="icon_usuario"/>
 <div>
 <p>Olá Visitante,</p>
-<h1>ENTRE OU CADASTRE-SE</h1>
+<p className={style.tl}>ENTRE OU CADASTRE-SE</p>
 </div>
 </div>
 </div>
 
 <div className={style.link_icon}>
 <img src={love} alt="icon_coração"/> 
-<h1>FAVORITOS</h1>
+<p className={style.tl}>FAVORITOS</p>
 </div>
 
 <div className={style.link_icon}>
 <p className={style.notify}>0</p>
 <img src={shop} alt="icon_compras"/> 
-<h1>SACOLA</h1>
+<p className={style.tl}>SACOLA</p>
 </div>
 
-</nav>
-<nav className={style.sub_menu}>
+</div>
+<div className={style.sub_menu}>
 
 <div>
 <div className={style.menu}>
 <div></div><div></div><div></div>
 </div>
 
-<h1>
+<p className={style.tl}>
 TODAS AS CATEGORIAS
-</h1>
+</p>
 </div>
 
-<h1>
+<p className={style.tl}>
 FRAGÂNCIAS
-</h1>
-<h1>
+</p>
+<p className={style.tl}>
 MAQUIAGEM
-</h1>
-<h1>
+</p>
+<p className={style.tl}>
 CORPO & BANHO
-</h1>
-<h1>
+</p>
+<p className={style.tl}>
 VIDA SAUDÁVEL 
-</h1>
-<h1>
+</p>
+<p className={style.tl}>
 ENERGIA E PERFORMANCE
-</h1>
-</nav>
-
+</p>
 </div>
+
+</nav>
+</>
 )
 }
 
-export default Header
+export default Nav
