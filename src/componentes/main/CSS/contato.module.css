@@ -43,9 +43,6 @@ width:100%;
     margin-top: 6%;
 }
 
-.container > .info > div .tl, .distance {
-margin-bottom: 24px;
-}
 
 .container > .info > div .tl, a{
     font-family: 'Open Sans';
@@ -59,6 +56,19 @@ margin-bottom: 24px;
 .container > .info > div a{
     font-weight: 400;
     text-decoration: none;
+}
+
+.container > .info .tel p{
+text-align: right;
+}
+
+
+.container > .info .socials{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 61%;
+    margin: 34px 0 0 auto;
 }
 
 
@@ -94,7 +104,18 @@ margin-bottom: 24px;
     background: #009BAA;
     border-style: none;
     justify-content: center;
+    max-width: 221px;
 }
+
+.container > .info > div .tl, .distance {
+    margin-bottom: 24px;
+    }
+
+.container > .info > div .distance{
+    margin: 0 0 24px auto;
+    }
+
+    
 
 
 .container button > p{

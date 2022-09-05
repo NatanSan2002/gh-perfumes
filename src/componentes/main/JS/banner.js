@@ -29,7 +29,7 @@ return(
 {arrow && 
 (
 <>
-<img src={seta_R} className={`${style.arrow} ${style.arrowR}`} alt="Seta_Esquerda"/>
+<img src={seta_R} className={`${style.arrow} ${style.arrowR}`} alt="Seta_Direita"/>
 <img src={seta_L} className={`${style.arrow} ${style.arrowL}`} alt="Seta_Esquerda"/>  
 
 <div className={style.abas}>

@@ -1,0 +1,46 @@
+.container{
+    width: 84%;
+    padding: 0% 8% 5% 8%;
+    position: relative;
+}
+
+.container > .flex{
+    display: flex;
+    flex:none;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    position: relative;
+}
+
+.container > .flex::-webkit-scrollbar{
+    display: none;
+}
+
+.arrow{
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    }
+    
+    .arrowL{  
+    left: 4.5%;
+    }
+    
+    .arrowR{  
+        right: 4.5%;
+        }
+
+
+.abas{
+    z-index: 10;
+    position: absolute;
+    bottom: 1%;
+    left: 45%;
+    width: auto;
+    display: flex;
+}
+
+.abas > img {
+margin: 0 22%;
+}
