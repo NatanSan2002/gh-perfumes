@@ -15,17 +15,17 @@ let views = [
 ]
 
 
-function Ordenar() {
-    views.sort(function ( a, b ) {
+
+    views.sort(( a, b ) => {
         if ( a.viu > b.viu ){
           return -1;} else if ( a.viu < b.viu){
           return true;
 }
     }
 )
-}
 
-Ordenar();
+
+
 
 
 

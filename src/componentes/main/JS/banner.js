@@ -11,7 +11,7 @@ return(
 <article className={`${style.container} ${style[bck]}`}>
 
 <img className={style.img1} src={img1} alt="Mulher_Maquiando"/>
-{img2 && (<img src={img2} alt="Produto"/>)}
+{img2 && (<img className={style.img2} src={img2} alt="Produto"/>)}
 
 <div>
 

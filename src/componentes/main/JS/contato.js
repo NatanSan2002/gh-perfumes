@@ -66,9 +66,15 @@ return(
 </div>
 
 <div className={style.socials}>
-<img src={INSTA} alt="Instagram_icone"/>
-<img src={YTB} alt="Youtube_Icone"/>
-<img src={FB} alt="Facebook_icone"/>
+<a href="https://www.instagram.com/" target="_blank" rel="noreferrer">
+    <img src={INSTA} alt="Instagram_icone"/> 
+    </a>
+<a href="https://www.youtube.com/"  target="_blank" rel="noreferrer">
+    <img src={YTB} alt="Youtube_Icone"/>
+    </a>
+<a href="https://www.facebook.com/"  target="_blank" rel="noreferrer">
+    <img src={FB} alt="Facebook_icone"/>
+    </a>
 
 </div>
 

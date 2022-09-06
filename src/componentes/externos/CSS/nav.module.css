@@ -135,11 +135,13 @@ input{
     letter-spacing: 0em;
     text-align: left;
     color: black;
+    outline: 0;
 }
 
 input::placeholder{
     color: #333333;
 }
+
 
 
 

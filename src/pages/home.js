@@ -46,11 +46,72 @@ function Home() {
     <ItenD img1={Perfume} img2={Capsulas} 
     n1="Venyx L’Or 100ml" n2="Multi- Vit Complex A-Z Mulheres 60 Cápsulas"
     p1={150.00} p2={85.00}/>
+
+<Container title="Os Mais Desejados">
+      
+      {Produtos.map(p => 
+      <Carrosel img={p.img} name={p.name} price={p.price}/>
+      )}
+   
+      </Container>
+
+      <Container title="Vida Saudavel">
+      
+      {Produtos.map(p => 
+      <Carrosel img={p.img} name={p.name} price={p.price}/>
+      )}
+   
+      </Container>
   
   <Banner
     title="Corpo e Banho" btn="conheça nossos produtos" img1= {B2_img1}
     text="Confira nossa linha de produtos para o corpo. Hidratantes, loções e desodorantes para os cuidados com seu corpo."
     />
+
+<Container title="Corpo e Banho">
+      
+      {Produtos.map(p => 
+      <Carrosel img={p.img} name={p.name} price={p.price}/>
+      )}
+   
+      </Container>
+      <Container>
+      
+      {Produtos.map(p => 
+      <Carrosel img={p.img} name={p.name} price={p.price}/>
+      )}
+   
+      </Container>
+
+      <ItenD img1={Perfume} img2={Capsulas} 
+    n1="Venyx L’Or 400ml" n2="Multi- Vit Complex A-Z Mulheres 120 Cápsulas"
+    p1={200.00} p2={150.00}/>
+
+      <Container title="Fragrâncias">
+      
+      {Produtos.map(p => 
+      <Carrosel img={p.img} name={p.name} price={p.price}/>
+      )}
+   
+      </Container>
+
+      <Container >
+      
+      {Produtos.map(p => 
+      <Carrosel img={p.img} name={p.name} price={p.price}/>
+      )}
+   
+      </Container>
+
+      <Container title="Acabaram de chegar">
+      
+      {Produtos.map(p => 
+      <Carrosel img={p.img} name={p.name} price={p.price}/>
+      )}
+   
+      </Container>
+
+      
   
      <Contato/>
      

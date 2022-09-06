@@ -1,5 +1,3 @@
-"Ácido Hialurônico com Colágeno HND 30 Sachês de 4g.png"
-
 let produtos = [
 {name:"Ácido Hialurônico com Colágeno HND 30 Sachês de 4g",
 img: "Ácido Hialurônico com Colágeno HND 30 Sachês de 4g.png",
