@@ -130,12 +130,13 @@ left: 4.5%;
     z-index: 10;
     position: absolute;
     bottom: 5%;
-    left: 45%;
-    width: auto;
+    left: 50%;
     display: flex;
+    transform: translate(-50%,0%);
+    width: auto;
 }
 
 .abas > img {
-margin: 0 22%;
+margin: 0 17px;
 }
 

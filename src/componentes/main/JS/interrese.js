@@ -33,7 +33,7 @@ let views = [
 function Interrese(){
 return(
 <article className={style.container}>
-<Title text="isso pode ser do seu interrese"/>
+<h1><Title text="isso pode ser do seu interrese"/></h1>
 <div className={style.squares}>
 
 

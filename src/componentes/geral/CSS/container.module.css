@@ -38,11 +38,11 @@
     z-index: 10;
     position: absolute;
     bottom: 1%;
-    left: 45%;
-    width: auto;
+    left: 50%;
     display: flex;
+    transform: translate(-50%,0%);
 }
 
 .abas > img {
-margin: 0 22%;
+margin: 0 17px;
 }
