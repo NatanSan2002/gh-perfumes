@@ -2,7 +2,7 @@ import    { BrowserRouter as Router, Routes, Route, Link }   from 'react-router-
 
 import Home from "./pages/home.js";
 import Nav from"./componentes/externos/JS/nav.js";
-import Footer from './componentes/externos/JS/footer.js';
+import Footer from "./componentes/main/JS/contato.js";
 
 
 function App() {
@@ -26,7 +26,7 @@ function App() {
 
 </main>
 
-<Footer/>
+
    
 </Router>
   );
